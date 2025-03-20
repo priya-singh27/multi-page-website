@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
+    <title>University Website</title>
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="assets/logo.png" alt="Home Page"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+    </section>
+
+    <!-- ----- Footer ----- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ut in dolor, <br> voluptates necessitatibus temporibus atque nam saepe assumenda harum vero ullam explicabo esse cum.</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+
+    <!-- ----- About Us Content ----- -->
+    <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the wrold's largest university</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi expedita officia assumenda ullam aperiam odio temporibus quis eveniet rerum, debitis molestias recusandae fugiat et? Autem at id error temporibus. Facere.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti quae omnis hic, eaque excepturi ratione eum sed. Animi quaerat reprehenderit, nesciunt ducimus dolor ea quos. Sed vero vel quasi cum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, earum. Nobis, quis quo itaque enim molestiae dignissimos beatae, eaque sapiente, corrupti eum quam aliquam omnis aliquid voluptatum dolores ducimus numquam.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis quod eligendi illum voluptates, animi quasi non accusantium iusto ipsum distinctio dolorem magni dolore necessitatibus sunt quisquam iure, autem eaque! Quaerat.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus non culpa sint excepturi ex deserunt quisquam maiores natus reiciendis provident nemo eligendi, exercitationem, pariatur obcaecati neque ratione cupiditate, laudantium nesciunt!
+            </p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="assets/about.jpg" alt="about">
+        </div>
+    </div>
+    </section>
+
+    <!-- -------JavaScript for Toggle Menu------- -->
+    <script >
+        const navLinks= document.getElementById('nav-links');
+
+        function showMenu(){
+            navLinks.style.right='0';
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

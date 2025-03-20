@@ -1,0 +1,34 @@
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    box-shadow: 1px 1px 16px green, -1px -0.2px 16px red ;
+    padding: 20px;
+    position: fixed;
+    /* width: calc(100% - 20%); */
+    /* background-color: rgb(74, 72, 72);
+    color: white; */
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.u-list{
+    /* background-color: cadetblue; */
+}
+li{
+    /* background-color: crimson; */
+    /* padding: 16px; */
+}
+
+.logo{
+    /* background-color:blueviolet ; */
+    align-self: center;
+}
+body{
+    /* background-color: darkgreen; */
+    margin: 20px;
+}
